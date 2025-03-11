@@ -6,7 +6,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 /**
- * 測試使用反射破壞單例模式
+ * 測試使用序列化破壞單例模式
  */
 public class Client {
     public static void main(String[] args) throws Exception {
