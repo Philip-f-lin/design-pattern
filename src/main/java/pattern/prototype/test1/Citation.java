@@ -1,6 +1,8 @@
-package pattern.prototype.test;
+package pattern.prototype.test1;
 
-public class Citation implements Cloneable{
+import java.io.Serializable;
+
+public class Citation implements Cloneable, Serializable {
 
     /*// 學生姓名
     private String name;
