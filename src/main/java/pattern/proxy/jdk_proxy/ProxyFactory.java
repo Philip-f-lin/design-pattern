@@ -24,7 +24,7 @@ public class ProxyFactory {
                 trainStation.getClass().getInterfaces(),
                 new InvocationHandler() {
                     /**
-                     * Object proxy：代理物件。和 proxyObject 物件是同一個物件，在 invoke 方法中墓本不用
+                     * Object proxy：代理物件。和 proxyObject 物件是同一個物件，在 invoke 方法中基本不用
                      * Method method：對接口中的方法進行封裝的 method 物件
                      * Object[] args：調用方法的實際參數
                      * 返回值：方法的返回值
